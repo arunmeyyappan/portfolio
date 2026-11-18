@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #05060d;
+  --midnight: #0a0f24;
+  --violet: #8b5cf6;
+  --cyan: #22d3ee;
+  --ember: #fb923c;
+  --text: #e8eaf6;
+  --muted: #9aa3c7;
+}
+
+html { scroll-behavior: smooth; background: var(--ink); }
+body {
+  margin: 0;
+  background: radial-gradient(1200px 700px at 80% -10%, #141a3d 0%, transparent 60%), var(--ink);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+::selection { background: rgba(139, 92, 246, 0.5); }
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12; }
+  .glass {
+    background: rgba(14, 19, 44, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  .eyebrow { @apply font-mono text-xs uppercase tracking-[0.25em] text-cyan; }
+  .display { @apply font-display font-semibold leading-[0.98] tracking-tight; }
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-colors
+      focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan;
+  }
+  .btn-primary { @apply bg-white text-ink hover:bg-violet-glow; }
+  .btn-ghost { @apply border border-white/20 text-white hover:border-cyan hover:text-cyan; }
+  .gradient-text {
+    background: linear-gradient(100deg, #a78bfa 0%, #22d3ee 55%, #fb923c 110%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .has-cursor, .has-cursor a, .has-cursor button { cursor: none; }
+  .has-cursor input, .has-cursor textarea { cursor: text; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
