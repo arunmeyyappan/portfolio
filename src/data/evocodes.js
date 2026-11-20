@@ -6,7 +6,7 @@ export const evocodes = {
     name: 'EVO CODES',
     tagline: 'Building Digital Products. Creating Meaningful Impact.',
     role: 'Founder & CEO',
-    website: 'https://evocodes.vercel.app',
+    website: 'https://evocodes.in',
     backendApi: 'https://evocodesbackend.onrender.com/api', // shown as plain text, not as a link
     founderIntro: 'EVO Codes is my startup venture. As Founder & CEO, I lead the vision, the product direction and the engineering, bringing together my work as a full-stack developer and my drive to build software that matters.',
     vision: 'To build digital products that create meaningful impact, with software designed around real problems rather than around technology for its own sake.',

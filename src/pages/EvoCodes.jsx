@@ -109,7 +109,7 @@ export default function EvoCodes() {
           <div className="rounded-[2.5rem] border border-white/10 p-10 text-center sm:p-16" style={{ background: 'linear-gradient(135deg, #1b1250 0%, #0a0f24 60%, #05060d 100%)' }}>
             <h2 className="display text-4xl sm:text-6xl">See EVO Codes live.</h2>
             <p className="mx-auto mt-4 max-w-xl" style={{ color: 'var(--muted)' }}>Visit the official website to see what we are building.</p>
-            <div className="mt-8"><MagneticButton href={evocodes.website}>evocodes.vercel.app <ArrowUpRight size={16}/></MagneticButton></div>
+            <div className="mt-8"><MagneticButton href={evocodes.website}>evocodes.in <ArrowUpRight size={16}/></MagneticButton></div>
           </div>
         </Reveal>
       </section>

@@ -91,7 +91,7 @@ export default function Contact() {
             </li>
             <li><a className="glass flex items-center gap-4 rounded-2xl p-5 hover:border-cyan" href={profile.links.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin className="text-cyan" aria-hidden/> <span><span className="eyebrow block">LinkedIn</span>linkedin.com/in/arunmeyyappan</span></a></li>
             <li><a className="glass flex items-center gap-4 rounded-2xl p-5 hover:border-cyan" href={profile.links.github} target="_blank" rel="noopener noreferrer"><Github className="text-cyan" aria-hidden/> <span><span className="eyebrow block">GitHub</span>arunmeyyappanplhere</span></a></li>
-            <li><a className="glass flex items-center gap-4 rounded-2xl p-5 hover:border-cyan" href={profile.links.evocodes} target="_blank" rel="noopener noreferrer"><Globe className="text-cyan" aria-hidden/> <span><span className="eyebrow block">EVO Codes</span>evocodes.vercel.app</span></a></li>
+            <li><a className="glass flex items-center gap-4 rounded-2xl p-5 hover:border-cyan" href={profile.links.evocodes} target="_blank" rel="noopener noreferrer"><Globe className="text-cyan" aria-hidden/> <span><span className="eyebrow block">EVO Codes</span>evocodes.in</span></a></li>
           </ul>
         </Reveal>
 

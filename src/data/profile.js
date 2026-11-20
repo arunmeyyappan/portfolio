@@ -20,7 +20,7 @@ export const profile = {
     links: {
         github: 'https://github.com/arunmeyyappanplhere',
         linkedin: 'https://linkedin.com/in/arunmeyyappan',
-        evocodes: 'https://evocodes.vercel.app',
+        evocodes: 'https://evocodes.in',
     },
     // TODO: replace with the email you want visitors to use. The contact form's
     // mailto: submission uses this value.

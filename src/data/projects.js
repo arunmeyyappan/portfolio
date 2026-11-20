@@ -13,7 +13,7 @@ export const projects = [
         stack: ['Vercel (website hosting)', 'Render (backend API)'], // add verified technologies
         features: [], // add verified product features here
         links: [
-            { label: 'Visit website', url: 'https://evocodes.vercel.app' },
+            { label: 'Visit website', url: 'https://evocodes.in' },
         ],
         visual: 'evocodes',
         accent: 'violet',

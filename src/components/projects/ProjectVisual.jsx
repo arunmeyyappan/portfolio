@@ -33,7 +33,7 @@ function Bars({ color, rows = 3 }) {
 function Mockup({ project, color }) {
     switch (project.visual) {
         case 'evocodes':
-            return (<Window title="evocodes.vercel.app" color={color}>
+            return (<Window title="evocodes.in" color={color}>
           <p className="font-display text-2xl font-semibold">EVO CODES</p>
           <p className="mt-1 text-xs" style={{ color: 'var(--muted)' }}>Building Digital Products. Creating Meaningful Impact.</p>
           <div className="mt-5 grid grid-cols-3 gap-2">
